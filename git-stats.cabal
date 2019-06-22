@@ -1,7 +1,8 @@
 name:                git-stats
 version:             1.0.0.0
 synopsis:            Print a summary of the contributors of a repository from the command line
--- description:
+description:         This tool walks the history of a git repository and accumulates the insertions and deletions of each user.
+                     After installing `git-stats` in your `$PATH` simply run `git-stats` (or `git stats`) somewhere in your git repository.
 homepage:            https://github.com/ajscholl/git-stats
 license:             BSD3
 license-file:        LICENSE
